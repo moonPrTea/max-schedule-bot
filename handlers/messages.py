@@ -123,6 +123,7 @@ async def print_teacher_name(event: MessageCreated, context: MemoryContext, sess
         text=(
             f"Был выбран преподаватель : {name}.\nТекущая неделя: {week_type}"
         ),
+        parse_mode=ParseMode.HTML,
         attachments=[schedule_buttons()]
     )
     
