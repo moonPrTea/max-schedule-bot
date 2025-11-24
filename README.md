@@ -41,10 +41,11 @@ python3 main.py
 ## Project Structure
 ```
 max_schedule_bot/
+├── database/        # database requests
 ├── models/          # database models
 ├── handlers/        # bot handlers
 ├── dependencies/    # database dependencies
-├── helpers.py/       # states, loger and helper functions 
+├── helpers/      # states, loger and helper functions 
 ├── settings.py      # environment settings
 └── main.py          # main application
 ```
